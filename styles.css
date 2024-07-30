@@ -1,0 +1,49 @@
+body {
+    background-image: url(mathematical.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: rgb(225, 215, 215);
+    min-height: 1.5em; /* Ensure the display has some height */
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
